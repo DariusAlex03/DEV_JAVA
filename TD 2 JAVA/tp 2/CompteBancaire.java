@@ -11,7 +11,8 @@ public class CompteBancaire {
     public CompteBancaire(String nomC, float soldeC, String numC)
     {
         this.nom = nomC;
-        this.solde = soldeC;       this.num = numC;
+        this.solde = soldeC;
+        this.num = numC;
     }
 
     public CompteBancaire(String nomC, String numC) {

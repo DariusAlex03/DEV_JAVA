@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class CompteBancaireDeux {
     private String nom;
     private String numero;
@@ -14,16 +16,26 @@ public class CompteBancaireDeux {
         this.numero = numeroC;
     }
 
-    public char affiche(){
-        System.out.print("nom : " + this.nom + " numero : " + this.numero);
-        return 0;
-    }
-
     public float vider(){
-        return 2;
+        float montant = this.solde;
+        this.solde = 0;
+        return montant;
     }
 
-    public void afficher(){
-        return;
+    public float setSolde(float sol){
+        this.solde = sol;
+        return sol;
+    }
+
+    public String creeNumero(){
+       String a = "abcdefghijklmnopqrstuvwxyz";
+       String b = a.toUpperCase(Locale.ROOT);
+       System.out.println(b);
+        return a;
+    }
+
+    public char afficher(){
+        System.out.println("nom : " + this.nom + " numero : " + this.numero + " et solde : " + this.solde);
+        return 0;
     }
 }
