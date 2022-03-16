@@ -11,14 +11,12 @@ public class Led {
 	private int reference;   // Reference de la Led
 	private boolean etat;	// Etat de la Led allumee ou eteinte
 
-	
 	/**
 	 * Constructeur par defaut
 	 */
 	public Led(){
 	}
-	
-	
+
 	/**
 	 * Constructeur d'initialisation champ à champ
 	 * @param reference : reference de la Led
@@ -29,8 +27,7 @@ public class Led {
 		this.reference = reference;
 		this.etat = etat;
 	}
-	
-	
+
 	/**
 	 * Constructeur par copie
 	 * @param uneLed (Led)
@@ -48,7 +45,6 @@ public class Led {
 		return reference;
 	}
 
-
 	/**
 	 * mutateur pour la référence (code) de la led
 	 * @param reference (int)
@@ -56,7 +52,6 @@ public class Led {
 	public void setReference(int reference) {
 		this.reference = reference;
 	}
-
 
 	/**
 	 * Accesseur pour l'état de la led
@@ -74,8 +69,6 @@ public class Led {
 		this.etat = etat;
 	}
 
-
-
 	/**
 	 * Allume la Led
 	 */
@@ -89,8 +82,7 @@ public class Led {
 	public void eteindre(){
 		this.etat = false;
 	}
-	
-	
+
 	/**
 	 * Fait clignoter une fois la Led une fois
 	 * Inverse l'etat de la Led
@@ -100,7 +92,6 @@ public class Led {
 		this.etat = !this.etat;
 	}
 
-
 	/**
 	 * toString
 	 * @return (String)
@@ -108,7 +99,4 @@ public class Led {
 	public String toString() {
 		return "Led [etat=" + this.getEtat() + ", reference=" + this.getReference() + "]";
 	}
-
-	
 }
-
