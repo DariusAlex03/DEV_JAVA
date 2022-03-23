@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DEV JAVA.iml" filepath="$PROJECT_DIR$/.idea/DEV JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/REVISIONS JAVA/REVISIONS JAVA.iml" filepath="$PROJECT_DIR$/REVISIONS JAVA/REVISIONS JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD 1 JAVA/TD 1 JAVA.iml" filepath="$PROJECT_DIR$/TD 1 JAVA/TD 1 JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD 2 JAVA/TD 2 JAVA.iml" filepath="$PROJECT_DIR$/TD 2 JAVA/TD 2 JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP 4 JAVA/TP 4 JAVA.iml" filepath="$PROJECT_DIR$/TP 4 JAVA/TP 4 JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP3/TP3.iml" filepath="$PROJECT_DIR$/TP3/TP3.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP5/TP5.iml" filepath="$PROJECT_DIR$/TP5/TP5.iml" />
     </modules>
